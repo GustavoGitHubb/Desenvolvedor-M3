@@ -1,0 +1,68 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.logo-header{
+    height: 30px;
+}
+
+.icon-bag {
+    height: 20px;
+}
+
+header i{
+    position: relative;
+}
+
+i::after{
+    content: "1";
+    background-color: #00C0EE;
+    color: #ffffff;
+    width: 15px;
+    height: 15px;
+    border-radius: 16px;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+}
+
+hr {
+    background: #C7C7C7;
+}
+
+.box-title-select {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    align-items: center;
+}
+
+.box-title-select h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #333333;
+}
+
+.box-title-select select {
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
